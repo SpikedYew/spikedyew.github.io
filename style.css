@@ -113,6 +113,7 @@ background-color: white;
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
 /*MAIN*/
 .main-page {
     margin:0;
@@ -271,3 +272,5 @@ background-color: white;
         flex-direction: column;
     }
 }
+=======
+>>>>>>> 5dd39ecc636f999bd2344fae9d7196a350ffceb6
