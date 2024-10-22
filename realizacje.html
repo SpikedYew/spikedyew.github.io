@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Realizacje</title>
+    <link rel="stylesheet" href="index-style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
@@ -20,94 +20,49 @@
       </ul>
     </nav>
     <a class="darmowa-wycena" href="#form-wycena"> Darmowa Wycena </a>
-    <!-- <section class="head">
-      <div class="introduction">
-        <img class="image-head" src="IMG_2227.jpg" alt="" />
-        <div class="text-introduction">
-          <h1>Potrzebujesz strony internetowej?<br /></h1>
-          <h2>
-            Nazywam się Bartosz Chmielecki i z pasją tworzę wyjątkowe strony
-            internetowe
-          </h2>
-          <a href=""><img class="icon" src="github-black.svg" alt="" /></a>
-          <a href=""><img class="icon" src="instagram-black.svg" alt="" /></a>
-          <h1 style="text-align: center">▼</h1>
-        </div>
-      </div>
-    </section> -->
+
     <section class="showcase">
       <div class="container card show">
-        <div class="box-text">
+        <div class="box-text fade-in">
           <h1>▶︎ MFC STUDIO</h1>
           <p>
-            -> Przygotowanie projektu w Adobe XD. Zakodowanie strony w HTML, CSS
-            i JavaScript. Wdrożenie responsywności. Zoptymalizowanie SEO.
+            Przygotowanie projektu w Adobe XD. Zakodowanie strony w HTML, CSS i
+            JavaScript. Wdrożenie responsywności. Zoptymalizowanie SEO.
             Przygotowanie unikalnych grafik i implementacja strony.
           </p>
-          <button class="submit-button">
-            <a class="btn-oferta" href="https://mfcstudio.pl/" target="_blank"
-              >Odwiedź stronę</a
-            >
-          </button>
+
+          <input
+            class="submit-button margin-top"
+            type="button"
+            value="Odwiedź stronę"
+            onclick="window.open('https://www.mfcstudio.pl', '_blank');"
+          />
         </div>
-        <div class="box-gif">
-          <img src="testGif.gif" alt="" />
+        <div class="box-gif fade-in-two">
+          <img src="mfcstudio-gif.gif" alt="" />
         </div>
       </div>
     </section>
     <section class="showcase">
       <div class="container-left card">
         <div class="box-text">
-          <h1>▶︎ Telesystem Spj.</h1>
-          <p>
-            -> Przygotowanie projektu strony internetowej w Adobe XD. Stworzenie
+          <h1 class="test2 card2">▶︎ Telesystem Spj.</h1>
+          <p class="test2 card2">
+            Przygotowanie projektu strony internetowej w Adobe XD. Stworzenie
             strony w Wordpressie. Zoptymalizowanie SEO. Przygotowanie unikalnych
             grafik i implementacja strony.
           </p>
-          <button class="submit-button">
-            <a
-              class="btn-oferta"
-              href="https://telesystemspj.pl/"
-              target="_blank"
-              >Odwiedź stronę</a
-            >
-          </button>
+          <input
+            class="submit-button margin-top"
+            type="button"
+            value="Odwiedź stronę"
+            onclick="window.open('https://www.telesystemspj.pl', '_blank');"
+          />
         </div>
-        <div class="box-gif"><img src="day 9.gif" alt="" /></div>
+        <div class="box-gif"><img src="nagranie-telesystem.gif" alt="" /></div>
       </div>
     </section>
-    <!-- <div class="test-test">
-      <div class="block"></div>
-      <div class="svg-container">
-        <svg
-          width="607"
-          height="2638"
-          viewBox="0 0 607 2638"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M298.148 0V73.5943C297.873 121.584 310.158 133.913 351.664 132.945H542.718C584.523 131.477 604.5 135.293 603.735 190.87V997.5C606.908 1079.44 582.061 1106.71 501.706 1103H114.5C32.0921 1105.56 -1.08875 1111.32 3.56464 1184.5V2069C2.77093 2156.14 56.7161 2137.71 155.5 2143H486C563.741 2144.85 597.757 2147.52 603.735 2217.5V2421.73V2638"
-            stroke="black"
-            stroke-width="10"
-          />
-        </svg>
-      </div> 
 
-      <section class="showcase">
-        <div class="container card">
-          <div class="box-text">
-            <h1>▶︎ Zwiększ sprzedaż i generuj leady</h1>
-            <p>
-              -> Strona internetowa to potężne narzędzie do przekształcania
-              odwiedzających w klientów. Możesz z łatwością prezentować swoje
-              produkty, usługi i zbierać dane kontaktowe potencjalnych klientów.
-            </p>
-          </div>
-          <div class="box-gif"><img src="testGif.gif" alt="" /></div>
-        </div>
-      </section> 
-    </div> -->
     <section class="form-submition">
       <form action="https://api.web3forms.com/submit" method="POST">
         <input
@@ -147,8 +102,8 @@
         <input class="submit-button" type="submit" value="Wyślij" />
       </form>
       <div class="form-text" id="form-wycena">
-        <h1>▶︎ Darmowa Wycena</h1>
-        <p>
+        <h1 class="test2 card2">▶︎ Darmowa Wycena</h1>
+        <p class="test2 card2">
           Potrzebujesz strony internetowej? Napisz do mnie, opisz czego
           potrzebujesz, a ja przygotuję dla Ciebie wycenę – szybko, bez
           zobowiązań i zupełnie za darmo. Skontaktuję się z Tobą w ciągu 24

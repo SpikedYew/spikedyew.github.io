@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Strony Internetowe - Bartosz Chmielecki</title>
+    <link rel="stylesheet" href="index-style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
@@ -14,30 +14,37 @@
         <li><a id="close-onclick" href="index.html">Home</a></li>
         <li><a id="close-onclick" href="oferta.html">Oferta</a></li>
         <li>
-          <a id="close-onclick" href="realizacje.html">Projekty</a>
+          <a id="close-onclick" href="realizacje.html">Realizacje</a>
         </li>
         <li><a id="close-onclick" href="#kontakt">Kontakt</a></li>
+        <li><a id="close-onclick" href="#kontakt"></a></li>
       </ul>
     </nav>
     <a class="darmowa-wycena" href="#form-wycena"> Darmowa Wycena </a>
     <section class="head">
-      <div class="introduction">
+      <div class="introduction fade-in">
         <img class="image-head" src="IMG_2227.jpg" alt="" />
         <div class="text-introduction">
-          <h1>Potrzebujesz strony internetowej?<br /></h1>
-          <h2>
+          <div class="">
+            <h1 class="fade-in-two">
+              Potrzebujesz strony
+              <h1 class="fade-in-three black-h1">internetowej?</h1>
+              <br />
+            </h1>
+          </div>
+          <h2 class="fade-in-two">
             Nazywam się Bartosz Chmielecki i z pasją tworzę wyjątkowe strony
             internetowe
           </h2>
           <a href="https://github.com/SpikedYew" target="_blank"
-            ><img class="icon" src="github-black.svg" alt=""
+            ><img class="icon fade-in-dot" src="github-black.svg" alt=""
           /></a>
           <a
             href="https://www.instagram.com/bartoszchmieleckiweb/"
             target="_blank"
-            ><img class="icon" src="instagram-black.svg" alt=""
+            ><img class="icon fade-in-dot" src="instagram-black.svg" alt=""
           /></a>
-          <h1 style="text-align: center">▼</h1>
+          <h1 class="fade-in-dot" style="text-align: center">▼</h1>
         </div>
       </div>
     </section>
@@ -62,40 +69,50 @@
       <section class="showcase">
         <div class="container card show">
           <div class="box-text">
-            <h1>▶︎ Zwiększ widoczność swojej firmy</h1>
-            <p>
-              -> Twoja firma staje się dostępna 24/7 dla klientów na całym
-              świecie. Nowoczesna strona to klucz do bycia znalezionym online.
+            <h1 class="test card2">▶︎ Zwiększ widoczność swojej firmy</h1>
+            <p class="test2 card2">
+              Twoja firma staje się dostępna 24/7 dla klientów na całym świecie.
+              Nowoczesna strona to klucz do bycia znalezionym online.
             </p>
           </div>
           <div class="box-gif">
-            <img src="testGif.gif" alt="" />
+            <!-- <img src="testGif.gif" alt="" /> -->
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/4badc255-faa0-43f5-9e6a-b8d9c392cd6a/JCUo7Pz0oc.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
           </div>
         </div>
       </section>
       <section class="showcase">
         <div class="container-left card">
           <div class="box-text">
-            <h1>▶︎ Zbuduj zaufanie</h1>
-            <p>
-              -> Profesjonalnie zaprojektowana strona wzmacnia wiarygodność
-              Twojej marki, przyciągając klientów i budując lojalność.
+            <h1 class="test2 card2">▶︎ Zbuduj zaufanie</h1>
+            <p class="test2 card2">
+              Profesjonalnie zaprojektowana strona wzmacnia wiarygodność Twojej
+              marki, przyciągając klientów i budując lojalność.
             </p>
           </div>
-          <div class="box-gif"><img src="day 9.gif" alt="" /></div>
+          <div class="box-gif"><script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/c6491218-d55f-4259-b4ca-acae42507e9b/63oJjSbjwe.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player></div>
         </div>
       </section>
       <section class="showcase">
         <div class="container card">
           <div class="box-text">
-            <h1>▶︎ Zwiększ sprzedaż i generuj leady</h1>
-            <p>
-              -> Strona internetowa to potężne narzędzie do przekształcania
+            <h1 class="test card2">▶︎ Zwiększ sprzedaż i generuj leady</h1>
+            <p class="test2 card2">
+              Strona internetowa to potężne narzędzie do przekształcania
               odwiedzających w klientów. Możesz z łatwością prezentować swoje
               produkty, usługi i zbierać dane kontaktowe potencjalnych klientów.
             </p>
           </div>
-          <div class="box-gif"><img src="testGif.gif" alt="" /></div>
+          <div class="box-gif">
+            
+
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/e950b3ad-f78e-47f9-94c1-48231413e221/Aufao9Uzjh.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
         </div>
       </section>
     </div>
@@ -138,8 +155,8 @@
         <input class="submit-button" type="submit" value="Wyślij" />
       </form>
       <div class="form-text" id="form-wycena">
-        <h1>▶︎ Darmowa Wycena</h1>
-        <p>
+        <h1 class="test2 card2">▶︎ Darmowa Wycena</h1>
+        <p class="test2 card2">
           Potrzebujesz strony internetowej? Napisz do mnie, opisz czego
           potrzebujesz, a ja przygotuję dla Ciebie wycenę – szybko, bez
           zobowiązań i zupełnie za darmo. Skontaktuję się z Tobą w ciągu 24
@@ -153,12 +170,16 @@
       <p>+48 533 320 515</p>
       <p>bartoszchmieleckikontakt@gmail.com</p>
     </section>
-    <div class="loader"></div>
+    <div class="absolute-absolute">
+      <div class="loader"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
+
     <script>
       $(window).on("load", function () {
         $(".absolute-absolute").fadeOut("slow");

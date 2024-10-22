@@ -64,16 +64,27 @@ const windowHeight = window;
 console.log(window);
 
 const boxes = document.querySelectorAll(".card");
+const texts = document.querySelectorAll(".card2");
 
 //listen to event, happend when scrolled, when scroll happpens it fires checkBoxes function
 window.addEventListener("scroll", checkBoxes);
+console.log((window.innerHeight / 5) * 4 * 1.1, "hej");
 
 function checkBoxes() {
   // Height of our current window
   //console.log(window.innerHeight);
   // We can devide it by 5 then multipy by 4 so we get a marker at 20% from the bottom of the page, and at that height the box will appear
   //console.log(window.innerHeight / 5 * 4);
+  const triggerBottom2 = (window.innerHeight / 5) * 4 * 1.1;
+  texts.forEach((x) => {
+    const textsTop = x.getBoundingClientRect().top;
 
+    if (textsTop < triggerBottom2) {
+      x.classList.add("show");
+    } else {
+      x.classList.remove("show");
+    }
+  });
   const triggerBottom = (window.innerHeight / 5) * 4;
   //const triggerTop = window.innerHeight / 5 * 4.5; this is for testing -> you can decide when the box disappears
 
